@@ -27,9 +27,8 @@ mv xmobar ~/.config/
 mv dunst/ ~/.config/
 mv rofi/ ~/.config/
 mv sxiv/ ~/.config/
-mv kitty/* ~/.config/kitty/
-mv fish/functions/* ~/.config/fish/functions/
-mv --suffix=.bak fish/config.fish ~/.config/fish/
+mv kitty/ ~/.config
+mv fish/ ~/.config/
 
 echo " 
 ###########################
