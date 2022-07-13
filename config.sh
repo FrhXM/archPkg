@@ -28,7 +28,8 @@ mv dunst/ ~/.config/
 mv rofi/ ~/.config/
 mv sxiv/ ~/.config/
 mv kitty/ ~/.config
-mv fish/ ~/.config/
+mv fish/functions/* ~/.config/fish/functions
+mv --suffix=.old fish/config.fish ~/.config/
 
 echo " 
 ###########################
