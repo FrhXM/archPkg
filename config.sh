@@ -21,7 +21,6 @@ mv .Xresources ~/
 
 echo "### Move .Config File ###"
 cd .config
-pwd
 mv xmonad ~/.config/
 mv xmobar ~/.config/
 mv dunst/ ~/.config/
@@ -29,7 +28,7 @@ mv rofi/ ~/.config/
 mv sxiv/ ~/.config/
 mv kitty/ ~/.config
 mv fish/functions/* ~/.config/fish/functions
-mv --suffix=.old fish/config.fish ~/.config/
+mv --suffix=.old fish/config.fish ~/.config/fish/
 
 echo " 
 ###########################
