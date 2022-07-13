@@ -36,6 +36,8 @@ echo "
 ### Directory In Home #####
 ###########################
 "
+mkdir -p ~/.local/share/fonts
+mv ../.local/share/fonts/* ~/.local/share/fonts
 mv ../pix/ ~/
 xdg-user-dirs-update
 mkdir ~/desk
