@@ -29,17 +29,17 @@ mv rofi/ ~/.config/
 mv sxiv/ ~/.config/
 mv kitty/ ~/.config/
 mv nvim/ ~/.config/
+xdg-user-dirs-update
+cp -rf user-dirs.dirs ~/.config/
 mv fish/functions/* ~/.config/fish/functions
 mv --suffix=.old fish/config.fish ~/.config/fish/
-xdg-user-dirs-update
-mv --suffix=.old user-dirs.dirs ~/.config/
+mkdir -p ~/.local/share/fonts
+mv ../.local/share/fonts/* ~/.local/share/fonts
+mv ../pix/ ~/
 
 echo " ########################### "
 echo " ### Directory In Home ##### "
 echo " ########################### "
-mkdir -p ~/.local/share/fonts
-mv ../.local/share/fonts/* ~/.local/share/fonts
-mv ../pix/ ~/
 mkdir ~/desk
 mkdir ~/dl
 mkdir ~/dox
