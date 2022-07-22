@@ -28,6 +28,7 @@ mv dunst/ ~/.config/
 mv rofi/ ~/.config/
 mv sxiv/ ~/.config/
 mv kitty/ ~/.config/
+mv picom/ ~/.config/
 mv nvim/ ~/.config/
 xdg-user-dirs-update
 cp -rf user-dirs.dirs ~/.config/
