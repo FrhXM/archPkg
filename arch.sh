@@ -1,7 +1,7 @@
 #!/usr/bin/env bash 
                             # == MY BASE PKG INSTALLER [ Arch ] == #
 sudo pacman -Syy xorg-server xorg-xinit xorg-xmessage xwallpaper acpilight xmonad xmonad-contrib xmobar kitty \
-    firefox chromium \
+    firefox qutebrowser \
     dmenu rofi \
     fzf fd exa bat xclip trash-cli man-db imagemagick \
     scrot slock dunst libnotify \
