@@ -31,9 +31,9 @@ mv kitty/ ~/.config/
 mv picom/ ~/.config/
 mv nvim/ ~/.config/
 xdg-user-dirs-update
-cp -rf user-dirs.dirs ~/.config/
+cp -f user-dirs.dirs ~/.config/
+cp -f fish/config.fish ~/.config/fish/
 mv fish/functions/* ~/.config/fish/functions
-mv --suffix=.old fish/config.fish ~/.config/fish/
 mkdir -p ~/.local/share/fonts
 mv ../.local/share/fonts/* ~/.local/share/fonts
 mv ../pix/ ~/
