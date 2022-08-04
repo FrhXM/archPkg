@@ -57,6 +57,8 @@ echo " ############################### "
 chmod +x ~/.xinitrc
 # Sxiv (image viewr Scripts)
 chmod +x ~/.config/sxiv/exec/key-handler
+# System Tray
+chmod +x ~/.config/xmobar/scripts/tray.sh
 
 echo " ########################################################### "
 echo " ################ EveryThings Is Ready ##################### "
