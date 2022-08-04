@@ -2,11 +2,11 @@
 echo " ##################################################################"
 echo " ########### Clone my Hotfiles From Github ########################"
 echo " ##################################################################"
+## Create .config File && aleardy existe after enter Fish Sheell
+mkdir -p ~/.config
+
 # Clone My Hotfiles
 git clone https://github.com/frhxm/Hotfiles
-
-# active Audio & crate directory ~/.config (~/.config aleardy exsite because enter in fish Shell)
-pulseaudio --start
 
 echo " ################################################################## "
 echo " ######## Move Every File Hotfiles To .Config ##################### "
@@ -57,12 +57,6 @@ echo " ############################### "
 chmod +x ~/.xinitrc
 # Sxiv (image viewr Scripts)
 chmod +x ~/.config/sxiv/exec/key-handler
-
-echo " ############################################################ "
-echo " ############### Install Vim Plug ########################### "
-echo " ############################################################ "
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 echo " ########################################################### "
 echo " ################ EveryThings Is Ready ##################### "
