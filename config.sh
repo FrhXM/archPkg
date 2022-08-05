@@ -59,6 +59,8 @@ chmod +x ~/.xinitrc
 chmod +x ~/.config/sxiv/exec/key-handler
 # System Tray
 chmod +x ~/.config/xmobar/scripts/tray.sh
+# Pacman Update in XMobar
+chmod +x ~/.config/xmobar/scripts/pacupdate.sh
 
 echo " ########################################################### "
 echo " ################ EveryThings Is Ready ##################### "
