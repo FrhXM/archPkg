@@ -13,4 +13,4 @@ sudo pacman -Syy xorg-server xorg-xinit xorg-xmessage xwallpaper acpilight xmona
     ttf-dejavu ttf-font-awesome ttf-jetbrains-mono \
     pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulsemixer pamixer \
     bluez bluez-utils blueman network-manager-applet trayer \
-    xdg-user-dirs neofetch htop 
+    xdg-user-dirs pacman-contrib neofetch htop 
