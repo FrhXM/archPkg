@@ -6,11 +6,12 @@ sudo pacman -Syy xorg-server xorg-xinit xorg-xmessage xwallpaper acpilight xmona
     fzf fd exa bat xclip trash-cli man-db imagemagick \
     scrot slock dunst libnotify \
     neovim sxiv mpv cmus \
-    thunar gvfs gvfs-mtp \
+    thunar thunar-volman thunar-archive-plugin \
+    gvfs gvfs-mtp gvfs-smb gvfs-afc gvfs-nfs gvfs-gphoto2 \
     unzip unrar dosfstools ntfs-3g \
     unclutter php picom lxappearance redshift \
     arc-gtk-theme papirus-icon-theme \
     ttf-dejavu ttf-font-awesome ttf-jetbrains-mono \
     pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulsemixer pamixer \
     bluez bluez-utils blueman network-manager-applet trayer \
-    xdg-user-dirs pacman-contrib neofetch htop 
+    xf86-video-intel xdg-user-dirs pacman-contrib neofetch htop 
