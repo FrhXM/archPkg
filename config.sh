@@ -46,9 +46,17 @@ mkdir ~/desk
 mkdir ~/dl
 mkdir ~/dox
 mkdir ~/music
-mkdir ~/prjcts
+mkdir ~/prjcts/{siteWeb,app,scripts}
 mkdir ~/vids
 mkdir ~/pub
+# Deleted Old Folder 
+trash-put Desktop/ Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/
+
+echo "##########################"
+echo "#### NewTab Web Page ####"
+echo "##########################"
+cd ~/prjcts/siteWeb/newtab/
+git clone https://github.com/frhxm/newtab
 
 echo " ############################### "
 echo " ##### Permision Files ######### " 
