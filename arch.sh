@@ -6,7 +6,7 @@ sudo pacman -Syy --needed xorg-server xorg-xinit xorg-xmessage xwallpaper acpili
     fzf fd exa bat xclip trash-cli man-db imagemagick xdotool \
     scrot slock dunst libnotify \
     neovim sxiv mpv cmus \
-    xfce4-power-manager thunar thunar-volman thunar-archive-plugin \
+    thunar thunar-volman thunar-archive-plugin \
     gvfs gvfs-mtp gvfs-smb gvfs-afc gvfs-nfs gvfs-gphoto2 \
     unzip unrar dosfstools ntfs-3g \
     unclutter php picom lxappearance redshift \
