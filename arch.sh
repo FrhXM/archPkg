@@ -3,7 +3,7 @@
 sudo pacman -Syy --needed xorg-server xorg-xinit xorg-xmessage xwallpaper acpilight xmonad xmonad-contrib xmobar kitty \
     firefox qutebrowser \
     dmenu rofi \
-    fzf fd exa bat xclip trash-cli man-db imagemagick xdotool \
+    fzf fd exa bat xclip trash-cli man-db imagemagick xdotool acpi \
     scrot slock dunst libnotify \
     neovim sxiv mpv cmus \
     thunar thunar-volman thunar-archive-plugin \
