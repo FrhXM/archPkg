@@ -69,6 +69,9 @@ chmod +x ~/.config/sxiv/exec/key-handler
 chmod +x ~/.config/xmobar/scripts/tray.sh
 # Pacman Update in XMobar
 chmod +x ~/.config/xmobar/scripts/pacupdate.sh
+# Battery Low Notify alert
+chmod +x ~/.config/xmobar/scripts/battnotify.sh
+
 
 echo " ########################################################### "
 echo " ################ EveryThings Is Ready ##################### "
