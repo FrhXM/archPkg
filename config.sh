@@ -50,7 +50,7 @@ mkdir -p ~/prjcts/{siteWeb,app,scripts}
 mkdir ~/vids
 mkdir ~/pub
 # Deleted Old Folder 
-trash-put Desktop/ Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/
+# trash-put Desktop/ Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/
 
 echo "##########################"
 echo "#### NewTab Web Page ####"
