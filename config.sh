@@ -31,6 +31,7 @@ mv kitty/ ~/.config/
 mv picom/ ~/.config/
 mv nvim/ ~/.config/
 mv qutebrowser/ ~/.config/
+mv neofetch/ ~/.config/
 xdg-user-dirs-update
 cp -f user-dirs.dirs ~/.config/
 cp -f fish/config.fish ~/.config/fish/
