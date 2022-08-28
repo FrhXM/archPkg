@@ -9,7 +9,7 @@ sudo pacman -Syy --needed xorg-server xorg-xinit xorg-xmessage xwallpaper acpili
     thunar thunar-volman thunar-archive-plugin \
     gvfs gvfs-mtp gvfs-smb gvfs-afc gvfs-nfs gvfs-gphoto2 \
     unzip unrar dosfstools ntfs-3g \
-    unclutter php picom lxappearance redshift \
+    unclutter php picom lxappearance-gtk3 redshift \
     arc-gtk-theme papirus-icon-theme \
     ttf-dejavu ttf-font-awesome ttf-jetbrains-mono \
     pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulsemixer pamixer \

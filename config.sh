@@ -73,14 +73,14 @@ chmod +x ~/.config/xmobar/scripts/pacupdate.sh
 # Battery Low Notify alert
 chmod +x ~/.config/xmobar/scripts/battnotify.sh
 
-echo "##############################"
-echo "###### Pacman Things #########"
-echo "##############################"
+# echo "##############################"
+# echo "###### Pacman Things #########"
+# echo "##############################"
 # Remove vim After Install NeoVim
-sudo pacman -Rsn vim
+# sudo pacman -Rsn vim
 
 # enable bluetooth
-sudo systemctl enable bluetooth
+#sudo systemctl start bluetooth
 
 echo " ########################################################### "
 echo " ################ EveryThings Is Ready ##################### "
