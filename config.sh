@@ -29,7 +29,7 @@ mv rofi/ ~/.config/
 mv sxiv/ ~/.config/
 mv kitty/ ~/.config/
 mv picom/ ~/.config/
-#mv nvim/ ~/.config/
+mv nvim/ ~/.config/
 mv qutebrowser/ ~/.config/
 mv neofetch/ ~/.config/
 xdg-user-dirs-update
@@ -48,7 +48,7 @@ mkdir ~/dl
 mkdir ~/dox
 mkdir ~/music
 mkdir -p ~/prjcts/{siteWeb,app,scripts,farmeWork}
-mkdir ~/vids
+mkdir -p ~/vids/{selfCare,dev201}
 mkdir ~/pub
 # Deleted Old Folder 
 # trash-put Desktop/ Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/
