@@ -29,7 +29,7 @@ mv rofi/ ~/.config/
 mv sxiv/ ~/.config/
 mv kitty/ ~/.config/
 mv picom/ ~/.config/
-mv nvim/ ~/.config/
+#mv nvim/ ~/.config/
 mv qutebrowser/ ~/.config/
 mv neofetch/ ~/.config/
 xdg-user-dirs-update
@@ -47,7 +47,7 @@ mkdir ~/desk
 mkdir ~/dl
 mkdir ~/dox
 mkdir ~/music
-mkdir -p ~/prjcts/{siteWeb,app,scripts}
+mkdir -p ~/prjcts/{siteWeb,app,scripts,farmeWork}
 mkdir ~/vids
 mkdir ~/pub
 # Deleted Old Folder 
@@ -80,7 +80,7 @@ echo "##############################"
 sudo pacman -Rsn vim
 
 # enable bluetooth
-sudo systemctl enable bluetooth
+#sudo systemctl enable bluetooth
 
 echo " ########################################################### "
 echo " ################ EveryThings Is Ready ##################### "
