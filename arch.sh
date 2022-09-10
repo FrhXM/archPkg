@@ -6,7 +6,7 @@ sudo pacman -Syy --needed xorg-server xorg-xinit xorg-xmessage xwallpaper acpili
     fzf fd exa bat xclip trash-cli man-db imagemagick xdotool acpi \
     scrot slock dunst libnotify \
     neovim sxiv mpv \
-    nautilus udisks2 udiskie \
+    nemo udisks2 udiskie \
     gvfs gvfs-mtp gvfs-smb gvfs-afc gvfs-nfs gvfs-gphoto2 \
     unzip unrar dosfstools ntfs-3g \
     unclutter picom lxappearance-gtk3 redshift \

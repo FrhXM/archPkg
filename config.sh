@@ -82,6 +82,12 @@ sudo pacman -Rsn vim
 # enable bluetooth
 #sudo systemctl enable bluetooth
 
+echo "##############################"
+echo "###### another Things ########"
+echo "##############################"
+# Open Terminal here in Nemo
+gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
+
 echo " ########################################################### "
 echo " ################ EveryThings Is Ready ##################### "
 echo " ########################################################### "
