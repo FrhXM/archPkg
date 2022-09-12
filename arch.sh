@@ -1,6 +1,6 @@
 #!/usr/bin/env bash 
                             # == MY BASE PKG INSTALLER [ Arch ] == #
-sudo pacman -Syy --needed xorg-server xorg-xinit xorg-xmessage xwallpaper acpilight xmonad xmonad-contrib xmobar kitty \
+sudo pacman -Syy --needed xorg-server xorg-apps xorg-xinit xorg-xmessage xwallpaper xmonad xmonad-contrib xmobar kitty \
     firefox qutebrowser \
     dmenu rofi \
     fzf fd exa bat xclip trash-cli man-db imagemagick xdotool acpi \
