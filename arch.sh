@@ -11,8 +11,8 @@ sudo pacman -Syy --needed xorg-server xorg-apps xorg-xinit xorg-xmessage xwallpa
     unzip unrar dosfstools ntfs-3g \
     unclutter picom lxappearance-gtk3 redshift \
     arc-gtk-theme papirus-icon-theme \
-    python php nodejs npm vscode \
+    nodejs npm vscode \
     ttf-dejavu ttf-font-awesome ttf-jetbrains-mono \
-    pipewire pipewire-pulse pipewire-media-session pipewire-alsa pipewire-jack pipewire-zeroconf pamixer pulsemixer \
+    pipewire pipewire-pulse wireplumber pipewire-alsa pipewire-jack pipewire-zeroconf pamixer pulsemixer \
     bluez bluez-utils blueman network-manager-applet trayer \
     xf86-video-intel xdg-user-dirs pacman-contrib neofetch htop
