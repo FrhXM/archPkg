@@ -1,4 +1,4 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
                             # == MY BASE PKG INSTALLER [ Arch ] == #
 sudo pacman -Syy --needed xorg-server xorg-apps xorg-xinit xorg-xmessage xwallpaper xmonad xmonad-contrib xmobar kitty \
     firefox qutebrowser \
@@ -13,6 +13,6 @@ sudo pacman -Syy --needed xorg-server xorg-apps xorg-xinit xorg-xmessage xwallpa
     arc-gtk-theme papirus-icon-theme \
     python php nodejs npm vscode \
     ttf-dejavu ttf-font-awesome ttf-jetbrains-mono \
-    pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulsemixer pamixer \
+    pipewire pipewire-pulse pipewire-media-session pipewire-alsa pipewire-jack pipewire-zeroconf pamixer pulsemixer \
     bluez bluez-utils blueman network-manager-applet trayer \
-    xf86-video-intel xdg-user-dirs pacman-contrib neofetch htop 
+    xf86-video-intel xdg-user-dirs pacman-contrib neofetch htop
