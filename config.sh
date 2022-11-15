@@ -21,6 +21,8 @@ mv .xinitrc ~/
 mv .Xresources ~/
 
 echo "### Move .Config File ###"
+mv .stalonetrayrc ~/
+
 cd .config
 mv xmonad ~/.config/
 mv xmobar ~/.config/
@@ -47,10 +49,10 @@ mkdir ~/desk
 mkdir ~/dl
 mkdir ~/dox
 mkdir ~/music
-mkdir -p ~/prjcts/{siteWeb,app,scripts,farmeWork}
+mkdir -p ~/prjcts/{siteWeb/task,app,scripts,farmeWork}
 mkdir -p ~/vids/{selfCare,dev201}
 mkdir ~/pub
-# Deleted Old Folder 
+# Deleted Old Folder
 # trash-put Desktop/ Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/
 
 echo "##########################"
@@ -60,14 +62,14 @@ cd ~/prjcts/siteWeb/
 git clone https://github.com/frhxm/newtab
 
 echo " ############################### "
-echo " ##### Permision Files ######### " 
+echo " ##### Permision Files ######### "
 echo " ############################### "
 # .xinitrc
 chmod +x ~/.xinitrc
 # Sxiv (image viewr Scripts)
 chmod +x ~/.config/sxiv/exec/key-handler
-# System Tray
-chmod +x ~/.config/xmobar/scripts/tray.sh
+# Better Notify Voume
+chmod +x ~/.config/xmobar/scripts/volume.sh
 # Pacman Update in XMobar
 chmod +x ~/.config/xmobar/scripts/pacupdate.sh
 # Battery Low Notify alert
