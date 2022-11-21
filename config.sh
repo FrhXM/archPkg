@@ -78,19 +78,18 @@ chmod +x ~/.config/xmobar/scripts/battnotify.sh
 echo "##############################"
 echo "###### Pacman Things #########"
 echo "##############################"
-# Remove vim After Install NeoVim
+## Remove vim After Install NeoVim
 sudo pacman -Rsn vim
 
-# Create Folder Hooks (auto Commande After Action)
-sudo mkdir -p /etc/pacman.d/
-cd /etc/pacman.d/
-
-# Download my Action from my Repo
-sudo git clone https://github.com/FrhXM/hooks
-
-
-# enable bluetooth
+## enable bluetooth
 #sudo systemctl enable bluetooth
+
+###### Create Folder Hooks (auto Commande After Action)
+#sudo mkdir -p /etc/pacman.d/
+#cd /etc/pacman.d/
+
+###### Download my Action from my Repo
+#sudo git clone https://github.com/FrhXM/hooks
 
 echo "##############################"
 echo "###### another Things ########"
