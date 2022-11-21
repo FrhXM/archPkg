@@ -81,6 +81,14 @@ echo "##############################"
 # Remove vim After Install NeoVim
 sudo pacman -Rsn vim
 
+# Create Folder Hooks (auto Commande After Action)
+sudo mkdir -p /etc/pacman.d/
+cd /etc/pacman.d/
+
+# Download my Action from my Repo
+sudo git clone https://github.com/FrhXM/hooks
+
+
 # enable bluetooth
 #sudo systemctl enable bluetooth
 
