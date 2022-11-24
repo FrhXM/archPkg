@@ -56,6 +56,12 @@ mkdir ~/pub
 # trash-put Desktop/ Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/
 
 echo "##########################"
+echo "#### install Packer  ####"
+echo "##########################"
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
+echo "##########################"
 echo "#### NewTab Web Page ####"
 echo "##########################"
 cd ~/prjcts/siteWeb/
