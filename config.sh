@@ -31,7 +31,7 @@ mv rofi/ ~/.config/
 mv sxiv/ ~/.config/
 mv kitty/ ~/.config/
 mv picom/ ~/.config/
-mv nvim/ ~/.config/
+# mv nvim/ ~/.config/
 mv qutebrowser/ ~/.config/
 mv neofetch/ ~/.config/
 xdg-user-dirs-update
@@ -54,12 +54,6 @@ mkdir -p ~/vids/{selfCare,dev201}
 mkdir ~/pub
 # Deleted Old Folder
 # trash-put Desktop/ Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/
-
-echo "##########################"
-echo "#### install Packer  ####"
-echo "##########################"
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
 echo "##########################"
 echo "#### NewTab Web Page ####"
