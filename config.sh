@@ -13,14 +13,16 @@ echo " ######## Move Every File Hotfiles To .Config ##################### "
 echo " ################################################################## "
 # In Hotfiles
 cd Hotfiles/
-ls -la
-pwd
 
-echo "### Move X11 File #####"
+echo "########################"
+echo "### Move X11 File ######"
+echo "########################"
 mv .xinitrc ~/
 mv .Xresources ~/
 
+echo "########################"
 echo "### Move .Config File ###"
+echo "########################"
 mv .stalonetrayrc ~/
 
 cd .config
@@ -84,12 +86,15 @@ sudo pacman -Rsn vim
 ## enable bluetooth
 #sudo systemctl enable bluetooth
 
+echo "##############################"
+echo "###### Pacman Hooks #########"
+echo "##############################"
 ###### Create Folder Hooks (auto Commande After Action)
-#sudo mkdir -p /etc/pacman.d/
-#cd /etc/pacman.d/
+sudo mkdir -p /etc/pacman.d/
+cd /etc/pacman.d/
 
 ###### Download my Action from my Repo
-#sudo git clone https://github.com/FrhXM/hooks
+sudo git clone https://github.com/FrhXM/hooks
 
 echo "##############################"
 echo "###### another Things ########"
