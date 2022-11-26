@@ -5,7 +5,7 @@ sudo pacman -Syy --needed xorg-server xorg-apps xorg-xinit xorg-xmessage xwallpa
     dmenu rofi \
     fzf fd exa bat xclip trash-cli man-db imagemagick xdotool acpi \
     scrot slock dunst libnotify \
-    neovim neovide sxiv mpv \
+    neovim sxiv mpv \
     nemo udisks2 udiskie \
     gvfs gvfs-mtp gvfs-smb gvfs-afc gvfs-nfs gvfs-gphoto2 \
     unzip unrar dosfstools ntfs-3g \
