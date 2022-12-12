@@ -8,7 +8,7 @@ sudo pacman -Syy --needed xorg-server xorg-apps xorg-xinit xorg-xmessage xwallpa
     neovim sxiv mpv \
     nemo udisks2 udiskie \
     gvfs gvfs-mtp gvfs-smb gvfs-afc gvfs-nfs gvfs-gphoto2 \
-    unzip unrar dosfstools ntfs-3g \
+    zip unzip unrar dosfstools ntfs-3g \
     unclutter picom lxappearance-gtk3 redshift \
     arc-gtk-theme papirus-icon-theme \
     nodejs npm \
